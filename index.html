@@ -6,17 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MySite</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!---->
-      <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-      <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
-      <script type="text/jsx" src="mkdown.jsx"></script>    <!---->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+   
 </head>
 <body>
-  <div id="app"></div>
- <!----> <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+ <!-- <div id="app"></div>
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
-  <script type="text/jsx" src="mkdown.jsx"></script> <!---->     
+  <script type="text/jsx" src="mkdown.jsx"></script>      
+-->
+<div id="app"></div>
+
+  <!-- ... other HTML ... -->
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <!-- Load our React component. -->
+  <script type="text/babel" src="sample.jsx"></script>
 </body>
